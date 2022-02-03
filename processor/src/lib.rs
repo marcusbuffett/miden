@@ -1,4 +1,4 @@
-use vm_core::{
+pub use vm_core::{
     errors::AdviceSetError,
     program::{
         blocks::{CodeBlock, Join, Loop, OpBatch, Span, Split},
